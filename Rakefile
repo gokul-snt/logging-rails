@@ -14,8 +14,8 @@ Bones {
 
   use_gmail
 
-  depend_on 'logging', '>= 1.8'
+  depend_on 'logging', '>= 2.3'
 
   depend_on 'bones-git', '~> 1.3', :development => true
-  depend_on 'rails',     '~> 4',   :development => true
+  depend_on 'rails',     '~> 7',   :development => true
 }
